@@ -1,0 +1,25 @@
+log:
+  logger_name: [root, user]
+  level: DEBUG
+  filemode: True
+  filename: log.txt
+
+excel:
+  filename: cases.xlsx
+
+url: http://120.78.128.25:8766/futureloan
+
+db:
+  host: "120.78.128.25"
+  port: 3306
+  user: "future"
+  password: "123456"
+  charset: 'utf8'
+
+user:
+  mobile_phone: "18200000000"
+  pwd: "123456789"
+
+admin_user:
+  mobile_phone: "13801719723"
+  pwd: "123456789"
